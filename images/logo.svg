@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="35" viewBox="0 0 112 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 35px;
+        font-family: GyeonggiTitleM;
+      }
+    </style>
+  </defs>
+  <text id="Winnie" class="cls-1" transform="translate(0 28)"><tspan x="0" y="0">Winnie</tspan></text>
+</svg>

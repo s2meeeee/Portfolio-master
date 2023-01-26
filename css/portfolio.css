@@ -1,0 +1,251 @@
+.container .trigger span {
+  background-color: #222;
+}
+@media screen and (max-width: 860px) {
+  .container {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .logo {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  .container .trigger {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+  }
+}
+.page1 {
+  height: 100%;
+}
+.inner {
+  width: 1600px;
+  height: inherit;
+  margin: 0 auto;
+  margin-bottom: 500px;
+}
+.text-box {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Do Hyeon", sans-serif;
+}
+.text-box h1 {
+  font-size: 70px;
+  padding: 20px 70px;
+  box-sizing: border-box;
+}
+.portfolio-boxs {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+
+}
+.portfolio-img {
+  width: 31%;
+}
+.portfolio-img a {
+  color: #222;
+  display: block;
+  text-align: center;
+}
+.portfolio-img .img-box {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.portfolio-boxs .portfolio-img:nth-child(1) .img-box {
+  background: url('../images/portfolio-img01.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(2) .img-box {
+  background: url('../images/portfolio-img02.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(3) .img-box {
+  background: url('../images/portfolio-img03.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(4) .img-box {
+  background: url('../images/portfolio-img04.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(5) .img-box {
+  background: url('../images/portfolio-img05.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(6) .img-box {
+  background: url('../images/portfolio-img06.jpg') no-repeat center center;
+  background-size: cover;
+}
+.portfolio-boxs .portfolio-img:nth-child(7) .img-box {
+  background: url('../images/portfolio-img07.jpg') no-repeat center center;
+  background-size: cover;
+}
+.img-box .project-text {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  position: relative;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 300;
+}
+.project-text h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.project-text p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+}
+.project-text .portfolio-btn {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.point-box {
+  text-align: center;
+}
+.point-box .point{
+  display: inline-block;
+  padding: 5px 20px;
+  background: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #004484;
+}
+.img-box > div {
+  opacity: 0;
+}
+.bg{
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  position: absolute;
+  background-color: #004484f0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  animation: bgani 0.3s linear;
+  animation-fill-mode: both;
+  padding: 50px 30px;
+  box-sizing: border-box;
+}
+
+@keyframes bgani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .inner {
+    width: 100%;
+  }
+  .portfolio-boxs {
+    justify-content: center;
+  }
+  .portfolio-img {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .img-box .bg{
+    padding: 30px 20px;
+  }
+  .project-text h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .project-text p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+}
+@media screen and (max-width: 980px) {
+  .text-box h1 {
+    font-size: 50px;
+  }
+  .text-box {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .portfolio-boxs {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .portfolio-img {
+    width: 90%;
+    padding: 10px 20px;  
+  }
+  .portfolio-img .img-box {
+    height: 400px;
+  }
+  .img-box > div {
+    opacity: 1;
+  } 
+  .project-text h3 {
+    font-size: 30px;
+  }
+  .point-box .point {
+    padding: 5px 15px;
+    font-size: 20px;
+  } 
+  .project-text {
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    position: absolute;
+    background-color: #004484f0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    animation: bgani 0.3s linear;
+    animation-fill-mode: both;
+    padding: 25px 20px;
+    box-sizing: border-box;  
+  }
+  .project-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box; 
+  }
+  .project-text p,
+  .project-text .portfolio-btn {
+    font-size: 20px;
+  }
+}

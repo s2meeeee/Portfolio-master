@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .video-frame {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -100;
+}
+.container .video-frame video{
+  width: 100%;
+  min-width: auto;
+}
+.container .heading {
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+  color: #fff;
+}
+.container .heading h1 {
+  font-size: 250px;
+  transition: 0.3s;
+  opacity: 0;
+  animation: fade-up 0.5s linear;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+.container .heading p {
+  font-size: 40px;
+  transition: 0.3s;
+  opacity: 0;
+  animation: fade-up 0.5s linear;
+  animation-fill-mode: both;
+  animation-delay: 0.7s;
+}
+.container .heading button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 45%;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: 0.3s !important;
+  opacity: 0;
+  animation: fade-up 0.5s linear;
+  animation-fill-mode: both;
+  animation-delay: 0.9s;
+}
+.container .heading button:hover {
+  background-color: #fff;
+  color: #2093ff;
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 1500px) {
+  .container .video-frame video{
+    width: auto;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 860px) {
+  .container {
+    height: 100vh;
+  }
+  .video-frame,
+  .video-frame video {
+    height: inherit !important;
+  }
+  .container .heading h1 {
+   font-size: 100px; 
+  }
+
+}
+
