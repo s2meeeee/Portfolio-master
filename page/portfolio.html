@@ -1,221 +1,107 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winnie</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Winnie</title>
+    <!-- 파비콘 등록 -->
+    <link rel="icon" href="../favicon.ico" />
 
-  <!-- 파비콘 등록 -->
-  <link rel="icon" href="../favicon.ico" />
+    <!-- jQuery cdn-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- reset cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!-- AOS cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- google icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- swiper cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-  <!-- jQuery cdn-->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <!-- reset cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <!-- AOS cdn -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- google icon -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <!-- swiper cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/portfolio.css" />
+    <script type="text/javascript" defer="defer" src="../js/common.js"></script>
+    <script
+      type="text/javascript"
+      defer="defer"
+      src="../js/portfolio.js"
+    ></script>
+  </head>
 
-  <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/portfolio.css">
-  <script type="text/javascript" defer="defer" src="../js/common.js"></script>
-  <script type="text/javascript" defer="defer" src="../js/portfolio.js"></script>
-
-</head>
-
-<body>
-  <div class="container">
-    <div class="logo">
-      <a href="../index.html"><img src="../images/logo_222.svg" alt="logo"></a>
-    </div>
-    <div class="trigger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="modal-gnb">
-      <ul class="gnb">
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="../page/about.html">ABOUT</a></li>
-        <li><a href="javascript:history.go(0)">PORTFOLIO</a></li>
-        <li><a href="../page/blog.html">BLOG</a></li>
-        <!-- <li><a href="javascript:viod(0)">CONTACT</a></li> -->
-      </ul>
-    </div>
-  </div>
-  <section class="page1 section">
-    <div class="inner">
-      <div class="text-box">
-        <h1>
-          선미의<br>
-          Portfolio!
-        </h1>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html"
+          ><img src="../images/logo_222.png" alt="logo"
+        /></a>
       </div>
-      <div class="portfolio-boxs">
-        <div class="portfolio-img">
-          <a href="https://newt365.co.kr/" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>뉴티365</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">jQuery</span>
-                  </div>
-                  <p>
-                    프로젝트 구분 : 뉴티365 홈페이지 코딩<br>
-                    참여도 : 카페24 템플릿 수정 100%<br>
-                    제작 기간 : 약 2주
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="http://sinkcare.net/index.php" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>싱크케어 랜딩</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">jQuery</span>
-                  </div>
-                  <p>프로젝트 구분 : 싱크케어 랜딩제작<br>
-                    참여도 : 기획 50% + 디자인 100% + 코딩 100%<br>
-                    제작 기간 : 약 2달
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="http://www.rocketibt.co.kr/default/main/main.php" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>아이비티</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">카페24</span>
-                  </div>
-                  <p>
-                    프로젝트 구분 : 아이비티 pc버전 코딩<br>
-                    참여도 : 카페24 템플릿 수정 100%<br>
-                    제작 기간 : 약 3달
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="http://gaeng0.dothome.co.kr/starbucks/index.html" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>스타벅스 클론코딩</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">JS</span>
-                  </div>
-                  <p>프로젝트 구분 : 스타벅스 클론코딩<br>
-                    참여도 : 코딩 100%<br>
-                    제작 기간 : 3일
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="https://snme.kr/" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>쇼핑앤미</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">jQuery</span>
-                  </div>
-                  <p>프로젝트 구분 : 쇼핑앤미 디자인 및 코딩<br>
-                    참여도 : 디자인 100% + 코딩 30%<br>
-                    제작 기간 : 7일
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="https://www.dmtu.kr/" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>드림투유</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">jQuery</span>
-                  </div>
-                  <p>프로젝트 구분 : 드림투유 디자인 및 코딩<br>
-                    참여도 : 디자인 90% + 코딩 10%<br>
-                    제작 기간 : 6개월
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="portfolio-img">
-          <a href="http://www.helload.kr/" target="_blank">
-            <div class="img-box">
-              <div class="project-text">
-                <div class="project-text-box">
-                  <h3>헬로우알라딘</h3>
-                  <div class="point-box">
-                    <span class="point">HTML5</span>
-                    <span class="point">CSS3</span>
-                    <span class="point">jQuery</span>
-                  </div>
-                  <p>프로젝트 구분 : 헬로우알라딘 디자인 및 코딩<br>
-                    참여도 : 디자인 100% + 코딩 30%<br>
-                    제작 기간 : 7일
-                  </p>
-                  <div class="portfolio-btn">Go Site</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>  
+      <div class="trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="modal-gnb">
+        <ul class="gnb">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../page/about.html">ABOUT</a></li>
+          <li><a href="javascript:history.go(0)">PORTFOLIO</a></li>
+
+          <!-- <li><a href="javascript:viod(0)">CONTACT</a></li> -->
+        </ul>
+      </div>
     </div>
-  </section>
-  <footer>
-    <p class="copyright">
-      &copy; <span class="this-year"></span> Winnie Portfolio. All Rights Reserve    </p>
-  </footer>
-
-</body>
-
+    <section class="page1 section">
+      <div class="inner">
+        <div class="text-box">
+          <h1>
+            선미의<br />
+            Portfolio!
+          </h1>
+        </div>
+        <div class="portfolio-boxs">
+          <div class="portfolio-img">
+            <a href="https://classy-sundae-8590d4.netlify.app" target="_blank">
+              <div class="img-box">
+                <div class="project-text">
+                  <div class="project-text-box">
+                    <h3>스타벅스 클론코딩</h3>
+                    <div class="point-box">
+                      <span class="point">HTML5</span>
+                      <span class="point">CSS3</span>
+                      <span class="point">JS</span>
+                    </div>
+                    <p>
+                      프로젝트 구분 : 스타벅스 클론코딩<br />
+                      참여도 : 코딩 100%<br />
+                      제작 기간 : 3일
+                    </p>
+                    <div class="portfolio-btn">Go Site</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="copyright">
+        &copy; <span class="this-year"></span> SeonMi Portfolio. All Rights
+        Reserve
+      </p>
+    </footer>
+  </body>
 </html>
