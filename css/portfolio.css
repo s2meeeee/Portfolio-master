@@ -70,10 +70,10 @@
 }
 
 .portfolio-boxs .portfolio-img:nth-child(1) .img-box {
-  background: url("../images/portfolio-img03.jpg") no-repeat center center;
+  background: url("../images/portfolio-img01.jpg") no-repeat center center;
   background-size: cover;
 }
-/* .portfolio-boxs .portfolio-img:nth-child(2) .img-box {
+.portfolio-boxs .portfolio-img:nth-child(2) .img-box {
   background: url("../images/portfolio-img02.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -81,23 +81,8 @@
   background: url("../images/portfolio-img03.jpg") no-repeat center center;
   background-size: cover;
 }
-.portfolio-boxs .portfolio-img:nth-child(4) .img-box {
-  background: url("../images/portfolio-img04.jpg") no-repeat center center;
-  background-size: cover;
-}
-.portfolio-boxs .portfolio-img:nth-child(5) .img-box {
-  background: url("../images/portfolio-img05.jpg") no-repeat center center;
-  background-size: cover;
-}
-.portfolio-boxs .portfolio-img:nth-child(6) .img-box {
-  background: url("../images/portfolio-img06.jpg") no-repeat center center;
-  background-size: cover;
-}
-.portfolio-boxs .portfolio-img:nth-child(7) .img-box {
-  background: url("../images/portfolio-img07.jpg") no-repeat center center;
-  background-size: cover;
-} */
-.img-box .project-text {
+
+*/ .img-box .project-text {
   width: 100%;
   height: inherit;
   text-align: center;
