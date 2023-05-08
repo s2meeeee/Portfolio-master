@@ -2,6 +2,6 @@
 
 <img src="./images/main.jpg">
 
-<a href="http://gaeng0.dothome.co.kr/myself/index.html">Winnie portfolio</a>
+<a href="https://classy-tanuki-046122.netlify.app">Seon mi portfolio</a>
 
 
